@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<title>CSS Template</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	box-sizing: border-box;
+	}
+
+	body {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the header */
+	header {
+	background-color: #87CEFA;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+  background: #5F9EA0;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #d6f7ff;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #87CEFA;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <font size="30px">
+		<h3><font color="black"><marquee>Welcome to My Website</marquee></font></h3>
+  </font>
+  <tr>
+		<img src="images/welcome.png" width="200" height="150">
+  </tr>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <p><a href="cv.html">Profile Shelvy Okvia  </a></p>
+	 <p><a href="video1.html">My Video  </a></p>
+	 <p><a href="audio.html">Lagu </a></p>
+	 <p><a href="youtube.html">Informasi Covid-19 </a></p>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Shelvy Blog</h1>
+    <p>Haii semua, Perkenalkan saya Shelvy Okvia biasa dipanggil Shelvy, saya adalah seorang mahasiswi Universitas Negeri Jakarta prodi Pendidikan Fisika, disini saya akan mengajak kalian mengenal saya lebih dekat.</p>
+    <p>Sebagai seorang mahasiswa kita perlu mengetahui berbagai macam hal dan lebih menggali agar wawasan yang kita miliki luas biasanya kita bisa banyak belajar dari organisasi, pertemanan, dan dosen yang mengajarkan kita, untuk itu jangan sia-siakan masa mudamu untuk hal yang sia-sia.</p>
+  </article>
+</section>
+
+<footer>
+  <font size="30px">
+		<h3><font color="black"><marquee>Welcome to My Website</marquee></font></h3>
+  </font>
+</footer>
+
+</body>
+</html>
